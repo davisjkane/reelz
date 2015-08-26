@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Homepage Carousel</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+  <header>
+		<ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Pagez</a></li>
+      <li><a href="#">Son</a></li>
+    </ul>
+  	
+<!--   	<img src="images/self-portrait.jpg">-->
+  </header>
+
+<!-- Fanreel -->
+<div id="curalate-fan-reel-wrapper">
+  <div id="curalate-header">
+
+    <p><a href="javascript:void(0);">View Gallery</a><a href=
+    "javascript:void(0);" id="curalate-upload-photos">Upload Pics</a></p>
+  </div>
+
+  <div id="curalate-fan-reel">
+    <div class="curalate-nav curalate-previous-page"
+    data-curalate-previous-page="">
+      &nbsp;
+    </div>
+
+    <div class="curalate-nav curalate-next-page" data-curalate-next-page="">
+      &nbsp;
+    </div>
+
+    <div id="curalate-content">
+      <div class="curalate-viewport">
+        <div class="curalate-thumbs"></div>
+      </div>
+
+      <div id="curalate-products-preloader"></div>
+    </div>
+
+    <div class="curalate-hidden" data-photo-modal-template="">
+      <div id="curalate-modal">
+        <div class="curalate-modal-close-container">
+          <a class="curalate-modal-close" href="javascript:void(0);" title=
+          "Close">CLOSE</a>
+        </div>
+
+        <div id="curalate-modal-image">
+          <a class="curalate-modal-nav" data-curalate-modal-previous-page=""
+          href="javascript:void(0);" id="curalate-modal-prev"></a> <a class=
+          "curalate-modal-nav" data-curalate-modal-next-page="" href=
+          "javascript:void(0);" id="curalate-modal-next"></a>
+          <a data-curalate-item-url="" href="javascript:void(0);">
+          <div class="curalate-play-video-button" data-curalate-video-ctrl=
+          "play"></div>
+
+          <div class="curalate-pause-video-button" data-curalate-video-ctrl=
+          "pause"></div><video class="curalate-modal-video"
+          data-curalate-video="medium">
+          <p>Your browser does not support the video element.</p></video>
+          <img data-curalate-image="large"></a>
+        </div>
+
+        <div id="curalate-modal-info">
+          <a data-curalate-item-url="" href="javascript:void(0);" id=
+          "curalate-modal-username"><span data-curalate-username-or-user-full-name="">
+          </span></a>
+        </div>
+
+        <div id="curalate-modal-description">
+          <span data-curalate-caption=""></span>
+        </div>
+      </div>
+    </div>
+
+    <div class="curalate-hidden" data-curalate-thumbnail-template="">
+      <div class="curalate-play-thumbnail" data-curalate-image-overlay="">
+      </div><img class="curalate-image" data-curalate-image="medium_square">
+      <video class="curalate-thumbnail-video" data-curalate-video=
+      "medium"></video>
+    </div>
+
+    <div class="curalate-overlay"></div>
+  </div>
+</div>
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.8.3.min.js"><\/script>')</script>
+<script src="http://api.curalate.com/js/lib/spin.js" type=
+"text/javascript"></script> <script src="http://api.curalate.com/js/lib/underscore.js" type=
+"text/javascript"></script> <script src="http://api.curalate.com/js/lib/backbone.js" type=
+"text/javascript"></script> <script src="http://api.curalate.com/js/lib/postmessage.js" type=
+"text/javascript"></script> <script type="text/javascript">
+  var Curalate = Curalate || {};
+
+            Curalate.config = { // Top-level configuration options.
+                DOMAIN: "api.curalate.com",
+                API_VERSION: "v1"
+            };
+</script> 
+
+<script src="http://api.curalate.com/js/base.js" type=
+"text/javascript"></script> <script src="http://api.curalate.com/js/tracking.js" type=
+"text/javascript"></script> <script src="http://api.curalate.com/js/fanreel.js" type=
+"text/javascript"></script> <script src=
+"http://api.curalate.com/js/reels/reference/fanreel-backbone.js" type=
+"text/javascript"></script> <script src=
+"http://api.curalate.com/js/reels/reference/fanreel-carousel.js" type=
+"text/javascript"></script>
+<link href="css/carousel.css" rel="stylesheet"><script src=
+"js/custom-carousel.js" type="text/javascript"></script> <script type="text/javascript">
+  Curalate.FanReels.Carousel.load({
+                code: 'davisjkane',
+                scroll: 'one',
+                pageSize: 6
+            });
+</script> 
+<!-- End Fanreel -->
+
+</body>
+</html>

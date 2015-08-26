@@ -1,0 +1,77 @@
+<!-- Curalate Start -->
+<div id="curalate-fan-reel-wrapper">
+	<div id="curalate-header">
+		<h3>Carters</h3>
+		<h4>Tag your happy moments with <span>#HAPPYBIRTHDAYCARTERS</span> &amp; <span>#CARTERSSWEEPSTAKES</span> for a chance to win.</h4>
+		<p><a href="javascript:void(0);">View Gallery</a><a id="curalate-upload-photos" href="javascript:void(0);">Upload Pics</a></p>
+	</div>
+	<div id="curalate-fan-reel">
+		<div data-curalate-previous-page class="curalate-nav curalate-previous-page">&nbsp;</div>
+		<div data-curalate-next-page class="curalate-nav curalate-next-page">&nbsp;</div>
+		<div id="curalate-content">
+			<div class="curalate-viewport">
+				<div class="curalate-thumbs"></div>
+			</div>
+			<div id="curalate-products-preloader"></div>
+		</div>
+		<div data-photo-modal-template class="curalate-hidden">
+			<div id="curalate-modal">
+				<div class="curalate-modal-close-container">
+					<a class="curalate-modal-close" href="javascript:void(0);" title="Close">CLOSE</a>
+				</div>
+				<div id="curalate-modal-image">
+					<a class="curalate-modal-nav" id="curalate-modal-prev" href="javascript:void(0);" data-curalate-modal-previous-page></a>
+					<a class="curalate-modal-nav" id="curalate-modal-next" href="javascript:void(0);" data-curalate-modal-next-page></a>
+					<a data-curalate-item-url href="javascript:void(0);">
+						<div data-curalate-video-ctrl="play" class="curalate-play-video-button"></div>
+						<div data-curalate-video-ctrl="pause" class="curalate-pause-video-button"></div>
+						<video data-curalate-video="medium" class="curalate-modal-video">
+							<p>Your browser does not support the video element.</p>
+						</video>   
+						<img data-curalate-image="large" />
+					</a>
+				</div>
+				<div id="curalate-modal-info">
+					<a id="curalate-modal-username" data-curalate-item-url href="javascript:void(0);"><span data-curalate-username-or-user-full-name></span></a>
+				</div>
+				<div id="curalate-modal-description">
+					<span data-curalate-caption></span>
+				</div>
+			</div>
+		</div>
+		<div data-curalate-thumbnail-template class="curalate-hidden">
+			<div class="curalate-play-thumbnail" data-curalate-image-overlay></div>
+			<img data-curalate-image="medium_square" class="curalate-image" />
+			<video data-curalate-video="medium" class="curalate-thumbnail-video"></video> 
+		</div>
+		<div class="curalate-overlay"></div>
+	</div>
+</div>
+
+<script type="text/javascript" src="http://api.curalate.com/js/lib/spin.js"></script>
+<script type="text/javascript" src="http://api.curalate.com/js/lib/underscore.js"></script>
+<script type="text/javascript" src="http://api.curalate.com/js/lib/backbone.js"></script>
+<script type="text/javascript" src="http://api.curalate.com/js/lib/postmessage.js"></script>
+<script type="text/javascript">
+	var Curalate = Curalate || {};
+
+	Curalate.config = { // Top-level configuration options.
+		DOMAIN: "api.curalate.com",
+		API_VERSION: "v1"
+	};
+</script>
+<script type="text/javascript" src="http://api.curalate.com/js/base.js"></script>
+<script type="text/javascript" src="http://api.curalate.com/js/tracking.js"></script>
+<script type="text/javascript" src="http://api.curalate.com/js/fanreel.js"></script>
+<script type="text/javascript" src="http://api.curalate.com/js/reels/reference/fanreel-backbone.js"></script>
+<script type="text/javascript" src="http://api.curalate.com/js/reels/reference/fanreel-carousel.js"></script>
+<link rel="stylesheet" href="css/carousel.css">
+<script type="text/javascript" src="js/custom-carousel.js"></script>
+<script type="text/javascript">
+	Curalate.FanReels.Carousel.load({
+		code: 'bestbuy',
+		scroll: 'one',
+		pageSize: 4
+	});
+</script>
+<!-- Curalate End -->

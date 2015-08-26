@@ -1,0 +1,40 @@
+body {
+    font-size: 14px;
+    font-family: "Oswald-Light";
+    font-style: normal;
+    font-weight: 200;
+}
+
+header {
+  background: #fff;
+  color: #000;
+    margin: 0 auto;
+    text-align: center;
+}
+
+ul {
+  padding: 10px;
+  background: #222;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+li {
+  display: inline;
+  padding: 0px 20px 0px 10px;
+    text-decoration: none;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:hover {
+    color: #333;
+}
+
+a {
+  color: #fff;
+}
+
+

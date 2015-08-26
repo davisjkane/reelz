@@ -1,0 +1,743 @@
+/* DEFAULT STYLING */
+
+.curalate-hidden {
+	display: none;
+}
+
+/* MAIN STYLING */
+
+#curalate-fan-reel-wrapper {
+	font-family: museo_sans_500regular, Arial, sans-serif;
+	margin: 0 -130px;
+	padding: 15px 130px 0;
+	background: url(../images/bg-image1.jpg) no-repeat 50% 100%;
+}
+
+#curalate-fan-reel {
+	margin: 0 auto 100px;
+}
+
+#curalate-content {
+	height: 100%;
+	width: 100%;
+}
+
+.curalate-viewport {
+	height: 100%;
+}
+
+/* HEADER */
+
+#curalate-header {
+	margin-bottom: 25px;
+	overflow: hidden;
+}
+
+#curalate-header-top {
+	margin-bottom: 28px;
+}
+
+#curalate-header-top p {
+	margin-left: 5px;
+	color: #666;
+	font-size: 16px;
+	line-height: 100%;
+}
+
+#curalate-header-top img {
+	vertical-align: top;
+	max-width: 100%;
+	height: auto;
+}
+
+#curalate-info {
+	font-size: 16px;
+	line-height: 23px;
+}
+
+#curalate-info:after {
+	display: block;
+	clear: both;
+	content: '';
+}
+
+#curalate-info .curalate-col {
+	overflow: hidden;
+	padding-left: 43px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+#curalate-info .curalate-col .curalate-holder span {
+	color: #25408f;
+	font-family: museo_sans_900regular, Arial, Helvetica, sans-serif;
+	font-weight: normal;
+}
+
+#curalate-info .curalate-col .curalate-holder .curalate-uppercase {
+	color: #666;
+	font-family: museo_sans_500regular, Arial, Helvetica, sans-serif;
+}
+
+#curalate-info .curalate-col.first {
+	float: left;
+	width: 240px;
+}
+
+#curalate-info .curalate-col.first a {
+	color: #07a6e2;
+	font-family: museo_sans_300regular, Arial, Helvetica, sans-serif;
+	font-weight: normal;
+}
+
+#curalate-info .curalate-col .curalate-frame a {
+	font-family: museo_sans_300regular, Arial, Helvetica, sans-serif;
+	font-weight: normal;
+}
+
+.curalate-ico-instagram, .curalate-ico-twitter {
+	background: url(../images/ico-instagram.png) no-repeat;
+	display: inline-block;
+	height: 23px;
+	margin-right: 2px;
+	vertical-align: top;
+	width: 22px;
+}
+
+.curalate-ico-twitter {
+	background: url(../images/ico-twitter.png) no-repeat;
+	height: 19px;
+}
+
+#curalate-info	h1 {
+	display: none;
+	font-family: museo_sans_900regular, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	line-height: 20px;
+	text-transform: uppercase;
+	color: #25408f;
+	margin-bottom: 6px;
+}
+
+#curalate-info h2 {
+	color: #25408f;
+	font-family: museo_sans_900regular, Arial, Helvetica, sans-serif;
+	font-size: 25px;
+	font-weight: normal;
+	line-height: 100%;
+	margin-bottom: 3px;
+}
+
+#curalate-info .curalate-num {
+	background: #25408f;
+	border-radius: 50%;
+	color: #fff;
+	float: left;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 22px;
+	height: 28px;
+	line-height: 28px;
+	margin: 1px 0 0 -37px;
+	text-align: center;
+	width: 28px;
+}
+
+#curalate-info .curalate-num-m {
+	display: none;
+	margin: 0 7px 0 -19px;
+	font-family: Arial, Helvetica, sans-serif !important;
+	font-weight: normal !important;
+	color: #23408f;
+}
+
+#curalate-info .curalate-title {
+	display: none;
+	font-family: museo_sans_900regular, Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	text-transform: uppercase;
+	color: #25408f;
+}
+
+#curalate-info .curalate-holder {
+	float: left;
+	width: 70%;
+}
+
+#curalate-info .curalate-holder br {
+	display: none;
+}
+
+#curalate-info .curalate-frame {
+	float: left;
+	text-align: center;
+	width: 30%;
+}
+
+#curalate-info .curalate-frame a {
+	color: #07a6e2;
+}
+
+#curalate-info .curalate-upload {
+	padding: 8px 25px 22px 10px;
+}
+
+#curalate-info .curalate-or {
+	display: inline-block;
+	font-size: 12px;
+	margin-right: 19px;
+	position: relative;
+	vertical-align: middle;
+}
+
+#curalate-info .curalate-or:before, #curalate-info .curalate-or:after {
+	width: 2px;
+	height: 16px;
+	background: #bbb;
+	position: absolute;
+	bottom: 100%;
+	left: 50%;
+	margin-left: -1px;
+	z-index: 2;
+	content: '';
+}
+
+#curalate-info .curalate-or:after {
+	bottom: auto;
+	top: 100%;
+}
+
+#curalate-info .curalate-col .curalate-btn {
+	background: #25408f;
+	color: #fff !important;
+	display: inline-block;
+	font-family: museo_sans_300regular, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	line-height: 18px;
+	padding: 4px 6px 2px;
+	text-transform: uppercase;
+	vertical-align: middle;
+}
+
+#curalate-info .curalate-btn:hover {
+	opacity: 0.8;
+	text-decoration: none;
+}
+
+/* THUMBNAIL STYLING */
+
+#curalate-fan-reel .curalate-thumbs {
+	height: 100%;
+}
+
+.curalate-thumbnail {
+	cursor: pointer;
+	height: 230px;
+	margin-bottom: 20px;
+	overflow: hidden;
+	width: 230px;
+}
+
+.curalate-thumbnail-video {
+	display: none;
+}
+
+.curalate-play-thumbnail {
+	background: url("../images/play-button.png") no-repeat;
+	cursor: pointer;
+	display: none;
+	height: 66px !important;
+	left: 50%;
+	margin: -33px 0 0 -33px;
+	position: absolute;
+	top: 50%;
+	width: 66px !important;
+}
+
+.curalate-thumbnail-large {
+	height: 480px;
+	width: 480px;
+}
+
+.curalate-thumbnail .curalate-image {
+	display: block;
+	height: auto;
+	max-height: 100%;
+	max-width: 100%;
+	width: auto;
+}
+
+.curalate-lazy-load-spinner .spinner {
+	margin: 0 auto;
+	text-align: center;
+}
+
+/* HOVER STYLING */
+
+.curalate-thumbnail .curalate-image-overlay {
+	background: rgb(0, 0, 0);
+	background: rgba(0, 0, 0, 0.65);
+	cursor: pointer;
+	display: none;
+	height: 100%;
+	position: absolute;
+	width: 100%;
+}
+
+.curalate-thumbnail.open .curalate-image-overlay {
+	display: block;
+}
+
+.curalate-hover {
+	padding-top: 40%;
+	text-align: center;
+}
+
+.curalate-hover-username {
+	color: #FFF;
+	display: block;
+	font-family: museo_sans_500regular, Arial, sans-serif;
+	font-size: 13px;
+	font-weight: normal;
+	line-height: 100%;
+	text-align: center;
+}
+
+.curalate-thumbnail-large .curalate-hover-username {
+	font-size: 17px;
+}
+
+.curalate-hover .curalate-hover-icon {
+	display: block;
+	margin: 0 auto 5px;
+	padding-top: 15%;
+	text-indent: -9999px;
+	width: 15%;
+}
+
+.curalate-thumbnail-large .curalate-hover .curalate-hover-icon {
+	margin-bottom: 10px;
+	padding-top: 10%;
+	width: 10%;
+}
+
+.curalate-hover.curalate-hover-instagram .curalate-hover-icon {
+	background: url(../images/icon-modal-instagram.png) no-repeat 50% 100%;
+	background-size: 100%;
+}
+
+.curalate-hover.curalate-hover-twitter .curalate-hover-icon {
+	background: url(../images/icon-hover-twitter.png) no-repeat 50% 100%;
+	background-size: 100%;
+}
+
+/* OVERLAY */
+
+.curalate-overlay {
+	background: rgb(0, 0, 0);
+	background: rgba(0, 0, 0, 0.5);
+	display: none;
+	height: 100%;
+	left: 0;
+	overflow: auto;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 9999;
+	-webkit-overflow-scrolling: touch;
+}
+
+/* MODAL STYLING */
+
+#curalate-modal {
+	background-color: #fff;
+	display: block;
+	font-family: museo_sans_500regular, Arial, sans-serif;
+	margin: 2% auto 0;
+	min-height: 530px;
+	overflow: hidden;
+	position: relative;
+	width: 660px;
+}
+
+.curalate-modal-nav {
+	height: 31px;
+	margin-top: -13px;
+	position: absolute;
+	text-indent: -9999px;
+	top: 50%;
+	width: 21px;
+}
+
+#curalate-modal-prev {
+	background-image: url(../images/arrow-modal-prev.png);
+	left: -54px;
+}
+
+#curalate-modal-next {
+	background-image: url(../images/arrow-modal-next.png);
+	right: -54px;
+}
+
+.curalate-modal-close {
+	background: url(../images/icon-close.png) no-repeat 0 0;
+	display: block;
+	height: 28px;
+	position: absolute;
+	right: 5px;
+	text-indent: -9999px;
+	top: 5px;
+	width: 27px;
+}
+
+#curalate-modal-image {
+	border: 7px solid #e1e1e1;
+	margin: 25px auto 7px;
+	position: relative;
+	width: 332px;
+}
+
+#curalate-modal-image img {
+	display: block;
+	height: auto !important;
+	margin: 0 auto;
+	max-width: 100%;
+	width: auto;
+}
+
+#curalate-modal-info {
+	margin: 0 auto;
+	width: 348px;
+}
+
+#curalate-modal-username {
+	color: #25408f;
+	display: block;
+	font-size: 15px;
+	line-height: 28px;
+	padding-left: 35px;
+}
+
+#curalate-modal-username.curalate-modal-username-instagram {
+	background: url(../images/icon-modal-instagram.png) no-repeat 0 50%;
+}
+
+#curalate-modal-username.curalate-modal-username-twitter {
+	background: url(../images/icon-modal-twitter.png) no-repeat 0 50%;
+}
+
+#curalate-modal-description {
+	color: #666;
+	font-size: 15px;
+	height: 55px;
+	line-height: 135%;
+	margin: 0 auto 25px;
+	overflow: auto;
+	padding-left: 35px;
+	width: 313px;
+}
+
+/* Modal Video Support */
+
+.curalate-modal-video {
+	display: none;
+	height: auto;
+	position: relative;
+	max-width: 100%;
+}
+
+.curalate-play-video-button {	
+    background: url("../images/play-button.png") no-repeat;
+	cursor: pointer;
+	height: 66px !important;
+    width: 66px !important;
+	left: 50%;
+	margin: -33px 0 0 -33px;
+	position: absolute;
+	top: 50%;
+
+}
+
+.curalate-pause-video-button {
+    background: url("../images/pause-button.png") no-repeat;
+	cursor: pointer;
+	display: none;
+    height: 66px !important;
+    width: 66px !important;
+	left: 50%;
+	margin: -33px 0 0 -33px;
+	position: absolute;
+	top: 50%;
+}
+
+/* if video is playing, show pause button */
+.curalate-overlay.active.curalate-video-active  #curalate-modal-image:hover .curalate-pause-video-button {
+	display: block;
+	z-index: 1;
+}
+
+/* if video is paused, show play button */
+.curalate-overlay.active.curalate-video-active.curalate-video-paused  .curalate-play-video-button {
+	display: block;
+	z-index: 1;
+}
+
+/* if video is paused, hide pause button */
+.curalate-overlay.active.curalate-video-active.curalate-video-paused  .curalate-pause-video-button {
+	display: none !important;
+}
+
+@media screen and (max-width: 767px) {
+	#curalate-fan-reel-wrapper {
+		font-family: museo_sans_300regular, Arial, sans-serif;
+		margin: 0;
+		padding: 15px 0 0;
+		background: url(../images/bg-image2.jpg) no-repeat 50% 100%;
+	}
+	#curalate-header {
+		margin-bottom: 1%;
+	}
+	#curalate-content {
+		padding: 4px 21px 0;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+	#curalate-fan-reel {
+		height: auto !important;
+	}
+	#curalate-fan-reel .curalate-thumbs {
+		display: block;
+		height: 100%;
+		margin-left: -1%;
+		overflow: hidden;
+	}
+	.curalate-thumbnail {
+		float: left;
+		height: auto;
+		left: 0 !important;
+		margin-bottom: 1%;
+		margin-left: 1%;
+		position: relative !important;
+		top: 0 !important;
+		width: 49%;
+	}
+	.curalate-thumbnail.curalate-thumbnail-large {
+		height: auto;
+		width: 49%;
+	}
+	.curalate-thumbnail .curalate-image-overlay {
+		display: none !important;
+	}
+	#curalate-modal {
+		width: 100%;
+	}
+	#curalate-header-top {
+		margin-bottom: 9px;
+	}
+	#curalate-header-top p {
+		color: #7a868c;
+		font-size: 14px;
+		line-height: 19px;
+		margin: 0;
+		padding: 0 15px;
+	}
+	#curalate-header-top img {
+		display: none;
+		margin-bottom: 11px;
+	}
+	#curalate-info {
+		padding: 0 15px;
+		font-size: 14px;
+		line-height: 16px;
+	}
+	#curalate-info h1 {
+		display: block;
+	}
+	#curalate-info .curalate-col {
+		float: none !important;
+		margin: 0;
+		padding: 0 19px 10px;
+		position: relative;
+		overflow: visible;
+		width: auto !important;
+	}
+	#curalate-info .curalate-num {
+		display: none;
+		left: 0;
+		margin: 0;
+		position: absolute;
+		top: 0;
+	}
+	#curalate-info .curalate-num-m {
+		color: #23408f;
+		display: inline-block;
+		vertical-align: top;
+	}
+	#curalate-info .curalate-title {
+		display: inline-block;
+		vertical-align: top;
+	}
+	#curalate-info .curalate-col .curalate-holder .curalate-uppercase {
+		color: #7a868c;
+		font-family: museo_sans_500regular, Arial, Helvetica, sans-serif;
+		text-transform: uppercase;
+	}
+	#curalate-header #curalate-info h2 {
+		display: none;
+		width: auto;
+		height: auto;
+		padding: 0;
+		margin: 0;
+	}
+	#curalate-info p {
+		color: #7a868c;
+		display: block !important;
+		line-height: 140%;
+		padding-bottom: 5px !important;
+	}
+	#curalate-info .curalate-holder, #curalate-info .curalate-frame {
+		float: none;
+		width: auto;
+	}
+	#curalate-info .curalate-holder br {
+		display: inline;
+	}
+	#curalate-info .curalate-frame p {
+		font-size: 11px !important;
+	}
+	#curalate-info .curalate-frame p a {
+		text-decoration: underline;
+	}
+	#curalate-info .curalate-frame p a:hover {
+		text-decoration: none;
+	}
+	.curalate-ico-instagram, .curalate-ico-twitter {
+		margin: -4px 2px -4px 0;
+	}
+	#curalate-info .curalate-col.first a {
+		font-size: 16px;
+	}
+	#curalate-info .curalate-or {
+		position: relative;
+		margin-bottom: 14px;
+		padding: 0 5px;
+	}
+	#curalate-info .curalate-or:before, #curalate-info .curalate-or:after {
+		width: 5px;
+		height: 1px;
+		top: 50%;
+		left: auto;
+		right: 100%;
+		bottom: auto;
+	}
+	#curalate-info .curalate-or:after {
+		right: auto;
+		left: 100%;
+	}
+	#curalate-info .curalate-col .curalate-btn {
+		display: block;
+		max-width: 260px;
+		margin: 0 auto;
+		padding: 10px 6px;
+		font-size: 13px;
+	}
+	#curalate-info .curalate-upload {
+		padding: 6px 0 13px;
+	}
+}
+
+@media screen and (max-width: 640px) {
+	#curalate-header h2 {
+		background-size: 100%;
+		height: 53px;
+		margin: 25px auto 20px;
+		width: 415px;
+	}
+	#curalate-header h3 {
+		display: block;
+		font-size: 33px;
+		margin-bottom: 17px;
+	}
+	#curalate-upload-photos {
+		font-size: 23px;
+		padding: 15px 15px 12px;
+	}
+	.curalate-modal-close {
+		background: url(../images/icon-close2.png) no-repeat 0 0;
+		background-size: 100%;
+		height: 30px;
+		width: 30px;
+	}
+	#curalate-modal {
+		height: auto;
+	}
+	#curalate-modal-prev {
+		background-size: 100% 100%;
+		height: 19px;
+		left: -30px;
+		width: 13px;
+	}
+	#curalate-modal-next {
+		background-size: 100% 100%;
+		height: 19px;
+		right: -30px;
+		width: 13px;
+	}
+	#curalate-modal-image {
+		border: 6px solid #e1e1e1;
+		height: auto;
+		margin: 8% 35px 4%;
+		width: auto;
+	}
+	#curalate-modal-info {
+		margin: 0 25px;
+		width: auto;
+	}
+	#curalate-modal-description {
+		margin: 0 25px 25px;
+		width: auto;
+	}
+}
+
+@media screen and (max-width: 500px) {
+	#curalate-header h2 {
+		height: 43px;
+		width: 340px;
+	}
+	#curalate-header h3 {
+		font-size: 30px;
+	}
+	.curalate-modal-close {
+		height: 25px;
+		width: 25px;
+	}
+}
+
+@media screen and (max-width: 400px) {
+	#curalate-header h2 {
+		height: 30px;
+		margin: 20px auto 10px;
+		width: 240px;
+	}
+	#curalate-header h3 {
+		font-size: 22px;
+	}
+	#curalate-upload-photos {
+		font-size: 15px;
+		padding: 10px 10px 8px;
+	}
+	#curalate-upload-photos span {
+		background-position: 100% -1px;
+	}
+	#curalate-modal-prev {
+		left: -25px;
+	}
+	#curalate-modal-next {
+		right: -25px;
+	}
+	#curalate-modal-image {
+		margin: 35px 35px 10px;
+	}
+}
